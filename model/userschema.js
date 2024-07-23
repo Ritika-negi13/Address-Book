@@ -1,13 +1,13 @@
 const userSchema = {
-    firstName: '',
-    lastName: '',
-    email: '',
-    age: 0,
+    firstName: String,
+    lastName: String,
+    email: String,
+    age: Number,
     address: {
-        street: '',
-        city: '',
-        state: '',
-        country: ''
+        street:String ,
+        city: String,
+        state: String,
+        country: String
     },
     phoneNumber: ''
 };
