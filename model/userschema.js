@@ -9,7 +9,7 @@ const userSchema = {
         state: String,
         country: String
     },
-    phoneNumber: ''
+    phoneNumber: String
 };
 
 module.exports = userSchema;
