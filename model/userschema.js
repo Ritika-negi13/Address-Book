@@ -1,3 +1,4 @@
+// user schema  defined
 const userSchema = {
     firstName: String,
     lastName: String,
