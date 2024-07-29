@@ -1,17 +1,9 @@
 // user schema  defined
 const userSchema = {
-    firstName: String,
-    lastName: String,
+    name: String,
     email: String,
     age: Number,
-    address: {
-        street:String ,
-        city: String,
-        state: String,
-        country: String
-    },
+    address: String,
     phoneNumber: String
 };
-
-module.exports = userSchema;
-
+module.exports = userSchema;                     
